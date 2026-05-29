@@ -1,0 +1,9 @@
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+*.pdf
+server.log
+.vercel/
+.env
+.env.local

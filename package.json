@@ -1,0 +1,21 @@
+{
+  "name": "web-to-pdf",
+  "version": "1.0.0",
+  "private": true,
+  "description": "網頁轉 A4 PDF 工具，支援 Flourish 等互動式嵌入圖表",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "@sparticuz/chromium": "^123.0.1",
+    "playwright-core": "^1.44.0"
+  },
+  "devDependencies": {
+    "express": "^4.19.0",
+    "playwright": "^1.44.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
