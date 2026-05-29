@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@sparticuz/chromium": "^123.0.1",
-    "playwright-core": "^1.44.0"
+    "puppeteer-core": "^22.0.0"
   },
   "devDependencies": {
     "express": "^4.19.0",
