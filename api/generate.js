@@ -34,7 +34,7 @@ async function getBrowserOptions() {
     return {
       args: chromiumPkg.args,
       executablePath: await chromiumPkg.executablePath(),
-      headless: chromiumPkg.headless,
+      headless: true,
     };
   }
   // 本機：playwright install chromium 安裝的瀏覽器
